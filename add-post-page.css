@@ -1,0 +1,189 @@
+/*    
+colors: 
+    1. desrve => #F3B340 
+    2. blue => #364C63
+    3. near to white => #E9E3D7
+there is proplems with responsive and footer
+*/
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#364C63 ;
+}
+
+body{
+    height: 2000px;
+}
+
+/* start navbar */ 
+.navbar{
+    background-color:#E9E3D7 ;
+    margin: 0;
+    padding: 0;
+    color: #364C63;
+    font-size: 18px;
+    width: 100%;
+}
+
+
+.navbar .navbar-nav .user-icon{
+    margin-right: 30px;
+}
+
+.navbar .navbar-nav .user-icon img{
+  width: 36px;
+  height: 36px;
+}
+
+.navbar .navbar-nav .dropdown{
+    margin-right: 25px;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu{
+    width: 250px;
+    text-align: right;
+    padding: 0;
+    background-color: #e9e3d7a4;
+    margin-top: 14px;
+}
+
+
+
+.navbar .navbar-nav .dropdown .dropdown-item:hover{
+    background-color: #364C63;
+    color: white;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu img{
+    margin-left: 10px;
+      
+}
+
+.navbar .navbar-nav .notvigation-icon{
+    margin-left: auto;
+    margin-right: 25px;
+    
+}
+
+.navbar .navbar-nav .notvigation-icon img{
+   width: 21px;
+   height: 25px;
+}
+
+.navbar .navbar-nav #add-post{
+    margin-left: 70px;
+}
+
+.navbar .navbar-nav #add-post a{
+    border: 2px solid #364C63;
+    border-radius: 10px;
+    width: 180px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+.navbar .navbar-nav #add-post img{
+    margin-right: 39px;
+}
+/* end navbar */ 
+
+/*start add-post*/
+.add-post {
+    margin-top: 35px;
+    
+}
+
+.add-post .add-post-tittle{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.add-post .box-add-post{
+    height: 650px;
+    border: 1px solid #758ea8bb;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+
+.add-post .box-add-post h4{
+    padding: 30px;
+    font-size: 25px;
+}
+
+.add-post .box-add-post .list-group{
+    width: 50%;
+
+}
+
+.add-post .box-add-post .list-group > .base-list-group-item{
+    position: relative !important;
+}
+
+
+.add-post .box-add-post .list-group .base-list-group-item:hover{
+    background-color: #364c6379;
+    color: white; 
+}
+
+.add-post .box-add-post .list-group .base-list-group-item img{
+    color: #364C63;
+    width: 30px;
+    height: 30px;
+}
+
+.add-post .box-add-post .list-group .base-list-group-item .name-base-list{
+    margin-right: 25px;
+    font-size: 17px;
+}
+
+.add-post .box-add-post .list-group .base-list-group-item .dropdown-menu{
+    width: 100%;
+    padding: 0;
+    position: absolute !important;
+    left: 5px !important;
+}
+
+.add-post .box-add-post .list-group .base-list-group-item .dropdown-menu .sub-list-group-item:hover{
+    background-color: #364c6379;
+}
+
+/* start add-post */
+
+@media (min-width:992px) and (max-width:1200px){
+
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .container{
+        max-width: 992px;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px){
+    .container{
+        max-width: 768px;
+    }
+
+    .add-post .add-post-tittle{
+        font-size: 30px;
+    }
+
+    .add-post .box-add-post h4{
+        font-size: 22px;
+    }
+
+    .add-post .box-add-post .list-group{
+        width: 50%;
+        position: none;
+    }
+    
+
+}
+

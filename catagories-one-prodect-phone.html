@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl" crossorigin="anonymous">
+    <link rel="stylesheet" href="/catagories-one-prodect.css">
+    <title>catagories-one-prodect</title>
+  </head>
+  <body>
+         <!--start navbar-->
+         <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="/Dallal/static/icon/logo.svg" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+              
+                    <li class="nav-item user-icon">
+                      <a  class="nav-link" aria-current="page" href="#"><img src="/Dallal/static/icon/user.svg" alt="user-icon"></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>التصنيفات</span>
+                            <img src="/Dallal/static/icon/dropdown.svg" alt="dropdown-icon">
+                        </a>
+                        <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#"><img src="/Dallal/static/icon/directions_car-24px.svg" alt="car-icon">سيارات</a></li>
+                                
+                            <li><a  class="dropdown-item" href="#"><img src="/Dallal/static/icon/weekend-24px.svg" alt="goods-icon">اثاث منزل</a></li>
+                            
+                            <li><a class="dropdown-item" href="#"><img src="/Dallal/static/icon/apartment-24p.svg" alt="apartment-icon">عقارات</a></li>
+                            
+                            <li><a class="dropdown-item" href="#"><img src="/Dallal/static/icon/smartphone-24px.svg" alt="phone-icon">هواتف</a></li>
+                            
+                            <li><a class="dropdown-item" href="#"><img src="/Dallal/static/icon/kitchen-24px.svg" alt="electronic-icon"> الكترونيات</a></li>
+                            
+                            <li><a class="dropdown-item" href="#"><img src="/Dallal/static/icon/two_wheeler-24px.svg" alt="motorCycle-icon">دراجات نارية</a></li>
+                
+                        </ul>
+                    </li>
+
+                    <li class="nav-item notvigation-icon">
+                      <a  class="nav-link" aria-current="page" href="#"><img src="/Dallal/static/icon/notvigation.svg" alt="notvigation-icon"></a>
+                    </li>
+    
+    
+                 
+                    <li class="nav-item " id="add-post">
+                        <a  class="nav-link" aria-current="page" href="#"><span>اضف اعلانك</span><img src="/Dallal/static/icon/add.svg" alt="add-post-icon"></a>
+                    </li>
+        
+                      <li class="nav-item nav-item-left">
+                        <a class="nav-link" href="#"><span>ابحث</span><img src="/Dallal/static/icon/search-24px.svg" alt="search-icon"></a>
+                    </li>
+                  
+                </ul>
+              
+    
+              </div>
+            </div>
+          </nav>
+         <!--end navbar-->
+         <!---start header -->
+                   
+        
+       <div class="wrap">
+       
+         <section class="nav-footer">
+          <div class="container">           
+          <div class="row">
+              
+              <div class="search">  
+                  <input class="input form-control bg-white" type="search" placeholder="عن ماذا تبحث" value=""  aria-label="Search">
+              </div>           
+              <div class="select">
+                  <select class="form-control">
+                    <option selected>في كل مكان</option>
+                    <option value="">تعز</option>
+                    <option value="">اب</option>
+                    <option value="">صنعاء</option>
+                    <option value="">عدن</option>
+                    <option value="">ماب</option>
+                    <option value="">شبوة</option>
+                  </select>
+          </div>   
+          <div class="button">
+              <button type="submit"class="btn" >ابحث</button>
+          </div> 
+          </div>
+        </div>
+        </section>
+
+          <!---end header-->
+
+            <!---end header-->
+
+            <!--start content-page-->
+            <section class="content">
+              <div class="container">
+                <div class="row">
+
+                  <div class="filter-box">
+                      <div class="filter-border">
+                          <div class="price">
+                            <h5>السعر</h5>
+                            <input class="input-number form-control bg-white" type="number" placeholder="اقل" value="" aria-label="Search">
+                            <input class="input-number form-control bg-white" type="number" placeholder="اكثر" value=""  aria-label="Search">
+                          </div>
+                          <div class="filter">
+                            <h5>فلترة</h5>
+                            <div class="choose">
+                              <input class="btn" type="checkbox" value=""><span>الكل</span>
+                            </div>
+                            <div class="choose">
+                              <input class="btn" type="checkbox" value=""><span>جديد</span>
+                            </div>
+                            <div  class="choose">
+                              <input class="btn" type="checkbox" value=""><span>مستخدم</span>
+                            </div>
+                        </div>
+                        <div class="filter">
+                            <h5>العملية التجارية</h5>
+                            <div class="choose">
+                              <input class="btn" type="checkbox" value=""><span>الكل</span>
+                            </div>
+                            <div class="choose">
+                              <input class="btn" type="checkbox" value=""><span>المباع</span>
+                            </div>
+                            <div class="choose">
+                              <input class="btn" type="checkbox" value=""><span>المشترى</span>
+                            </div>
+                            <div class="choose">
+                                <input class="btn" type="checkbox" value=""><span>تأجير</span>
+                            </div>
+                        </div>
+                        <div class="filter">
+                            <h5>الفترة الزمنية</h5>
+                            <div class="choose">
+                              <input class="btn" type="checkbox" value=""><span>الكل</span>
+                            </div>
+                            <div class="choose">
+                              <input class="btn" type="checkbox" value=""><span>في الامس</span>
+                            </div>
+                            <div class="choose">
+                              <input class="btn" type="checkbox" value=""><span>قبل اسبوع</span>
+                            </div>
+                            <div class="choose">
+                              <input class="btn" type="checkbox" value=""><span>قبل شهر</span>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="submit-filter">
+                        <button  type="submit"class="button btn" >ابحث</button>
+                      </div>
+                  </div>
+
+
+            <div class="all-add-boxes">
+
+
+                    <div class="above-filter">
+                        <h4>دلَّال - هواتف</h4><span>100 عنصر</span>
+                        <ul class="list-group list-group-horizontal">
+                          <li class="list-group-item list-group-item-action all_list"><a class="nav-link" href="#">جميع القوائم</a></li>
+                          <li class="list-group-item list-group-item-action"><a class="nav-link" href="#">تاجر</a></li>
+                          <li class="list-group-item list-group-item-action"><a class="nav-link" href="#">شخصي</a></li>
+                        </ul>
+                    </div>
+
+                    
+  
+              <div class="ads-boxes">
+                <div class="row">
+  
+                  <div class="box">
+                    <div class="card">
+                      <a href="#"><img class="favorite-icon" src="/Dallal/static/icon/favorite.svg" alt="favorite-icon"></a>
+                      <div class="inner">
+                          <a href="#"> <img  src="/Dallal/static/icon/bg-header.jpg" class="card-img-top" alt="..."></a>
+                      </div>
+                      <div class="card-body">
+                        <a class="nav-link" href="#"><h5 class="card-title">اثاث للبيع</h5></a>
+                        <span class="card-text">30.000 ريال</span>
+                        <span class="time">قبل 5 دقائق</span>
+                      </div>
+                    </div>
+                  </div>
+  
+                <div class="box">
+                  <div class="card" >
+                    <a href="#"><img class="favorite-icon" src="/Dallal/static/icon/favorite.svg" alt="favorite-icon"></a>
+                    <div class="inner">
+                        <a  href="#"> <img src="/Dallal/static/icon/pexels-pixabay-259588.jpg" class="card-img-top" alt="..."></a>
+                    </div>
+                    <div class="card-body">
+                      <a class="nav-link" href="#"><h5 class="card-title">اثاث للبيع</h5></a>
+                      <span class="card-text">30.000 ريال</span>
+                      <span class="time">قبل 5 دقائق</span>
+                    </div>
+                  </div>
+                </div>
+  
+              <div class="box">
+                <div class="card" >
+                  <a href="#"><img class="favorite-icon" src="/Dallal/static/icon/favorite.svg" alt="favorite-icon"></a>
+                  <div class="inner">
+                      <a href="#"> <img src="/Dallal/static/icon/WhatsApp Image 2021-02-06 at 3.09.17 PM.jpeg" class="card-img-top" alt="..."></a>
+                  </div>
+                  <div class="card-body">
+                    <a class="nav-link" href="#"><h5 class="card-title">اثاث للبيع</h5></a>
+                    <span class="card-text">30.000 ريال</span>
+                    <span class="time">قبل 5 دقائق</span>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="card">
+                  <a href="#"><img class="favorite-icon" src="/Dallal/static/icon/favorite.svg" alt="favorite-icon"></a>
+                  <div class="inner">
+                      <a href="#"> <img  src="/Dallal/static/icon/bg-header.jpg" class="card-img-top" alt="..."></a>
+                  </div>
+                  <div class="card-body">
+                    <a class="nav-link" href="#"><h5 class="card-title">اثاث للبيع</h5></a>
+                    <span class="card-text">30.000 ريال</span>
+                    <span class="time">قبل 5 دقائق</span>
+                  </div>
+                </div>
+              </div>
+
+            <div class="box">
+              <div class="card" >
+                <a href="#"><img class="favorite-icon" src="/Dallal/static/icon/favorite.svg" alt="favorite-icon"></a>
+                <div class="inner">
+                    <a  href="#"> <img src="/Dallal/static/icon/pexels-pixabay-259588.jpg" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="card-body">
+                  <a class="nav-link" href="#"><h5 class="card-title">اثاث للبيع</h5></a>
+                  <span class="card-text">30.000 ريال</span>
+                  <span class="time">قبل 5 دقائق</span>
+                </div>
+              </div>
+            </div>
+
+          <div class="box">
+            <div class="card" >
+              <a href="#"><img class="favorite-icon" src="/Dallal/static/icon/favorite.svg" alt="favorite-icon"></a>
+              <div class="inner">
+                  <a href="#"> <img src="/Dallal/static/icon/WhatsApp Image 2021-02-06 at 3.09.17 PM.jpeg" class="card-img-top" alt="..."></a>
+              </div>
+              <div class="card-body">
+                <a class="nav-link" href="#"><h5 class="card-title">اثاث للبيع</h5></a>
+                <span class="card-text">30.000 ريال</span>
+                <span class="time">قبل 5 دقائق</span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="card">
+              <a href="#"><img class="favorite-icon" src="/Dallal/static/icon/favorite.svg" alt="favorite-icon"></a>
+              <div class="inner">
+                  <a href="#"> <img  src="/Dallal/static/icon/bg-header.jpg" class="card-img-top" alt="..."></a>
+              </div>
+              <div class="card-body">
+                <a class="nav-link" href="#"><h5 class="card-title">اثاث للبيع</h5></a>
+                <span class="card-text">30.000 ريال</span>
+                <span class="time">قبل 5 دقائق</span>
+              </div>
+            </div>
+          </div>
+
+        <div class="box">
+          <div class="card" >
+            <a href="#"><img class="favorite-icon" src="/Dallal/static/icon/favorite.svg" alt="favorite-icon"></a>
+            <div class="inner">
+                <a  href="#"> <img src="/Dallal/static/icon/pexels-pixabay-259588.jpg" class="card-img-top" alt="..."></a>
+            </div>
+            <div class="card-body">
+              <a class="nav-link" href="#"><h5 class="card-title">اثاث للبيع</h5></a>
+              <span class="card-text">30.000 ريال</span>
+              <span class="time">قبل 5 دقائق</span>
+            </div>
+          </div>
+        </div>
+
+      <div class="box">
+        <div class="card" >
+          <a href="#"><img class="favorite-icon" src="/Dallal/static/icon/favorite.svg" alt="favorite-icon"></a>
+          <div class="inner">
+              <a href="#"> <img src="/Dallal/static/icon/WhatsApp Image 2021-02-06 at 3.09.17 PM.jpeg" class="card-img-top" alt="..."></a>
+          </div>
+          <div class="card-body">
+            <a class="nav-link" href="#"><h5 class="card-title">اثاث للبيع</h5></a>
+            <span class="card-text">30.000 ريال</spsan>
+            <span class="time">قبل 5 دقائق</span>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="card" >
+          <a href="#"><img class="favorite-icon" src="/Dallal/static/icon/favorite.svg" alt="favorite-icon"></a>
+          <div class="inner">
+              <a  href="#"> <img src="/Dallal/static/icon/pexels-pixabay-259588.jpg" class="card-img-top" alt="..."></a>
+          </div>
+          <div class="card-body">
+            <a class="nav-link" href="#"><h5 class="card-title">اثاث للبيع</h5></a>
+            <span class="card-text">30.000 ريال</span>
+            <span class="time">قبل 5 دقائق</span>
+          </div>
+        </div>
+      </div>
+        
+          </div>
+        </div>
+
+        <div class="browse-more lead text-justify">
+          <h4>تصفح المزيد</h4>
+          <ul class="list-group list-group-horizontal text-cenetr">
+            <li class="list-group-item list-group-item-action"><a class="nav-link" href="#">1</a></li>
+            <li class="list-group-item list-group-item-action"><a class="nav-link" href="#">2</a></li>
+            <li class="list-group-item list-group-item-action"><a class="nav-link" href="#"><i class="fa fa-angle-left"></i></a></li>
+            <li class="list-group-item list-group-item-action"><a class="nav-link" href="#"><i class="fa fa-angle-double-left"></i></a></li>
+          </ul>
+      </div>
+
+    
+
+    </div>
+
+                
+      </div>
+    </div>
+   </section>
+  </div>
+    <!--start Footer-->
+  <footer class="footer">
+    <div class="container">
+        <div class="row ">
+          <div class="navigation ">
+            <h4>التنقل</h4>
+            <a class="nav-link" href="#">الصفحة الرئيسية</a>
+            <a class="nav-link" href="#">بحث</a>
+            <a class="nav-link" href="#">حسابي</a>
+            <a class="nav-link" href="#">اضف اعلانك</a>
+            <a class="nav-link" href="#">تواصل معنا</a>
+          </div>
+
+          <div class="catagory">
+            <h4>التصنيفات</h4>
+            <a class="nav-link" href="#">سيارات</a>
+            <a class="nav-link" href="#">اثاث منزل</a>
+            <a class="nav-link" href="#">عقارات</a>
+            <a class="nav-link" href="#">هواتف</a>
+            <a class="nav-link" href="#">الكترونيات</a>
+            <a class="nav-link" href="#">دراجات نارية</a>
+          </div>
+
+          <div class="information ">
+            <h4 >معلومات</h4>
+            <a class="nav-link" href="#">تعليمات الاستخدام</a>
+            <a class="nav-link" href="#">سياسة الخصوصية</a>
+            <a class="nav-link" href="#">من نحن</a>
+          </div>
+
+          <div class="social-media ">
+            <h4>تابعنا عبر</h4>
+            <a  href="#"><i class="fab fa-2x fa-facebook"></i></a>
+            <a  href="#"><i class="fab fa-fw fa-2x fa-twitter"></i></a>
+            <a  href="#"><i class="fab fa-fw fa-2x fa-dribbble"></i></a>
+            <a  href="#"><i class="fab fa-fw fa-2x fa-linkedin-in"></i></a>  
+          </div>
+        </div>
+    </div>
+    <div class="copyright py-4 text-white">
+      <div class="container">
+        <small> جميع الحقوق محفوظة © 2021 لشركة دلَّال</small>
+      </div>
+    </div>
+  </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9c348c967d.js" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,231 @@
+/*    
+colors: 
+    1. desrve => #F3B340 
+    2. blue => #364C63
+    3. near to white => #E9E3D7
+
+
+
+*/
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    font-family: 'Tajawal', sans-serif;
+    color: #364c63;
+    
+}
+body{
+    height: 1250px;
+    
+}
+
+/* this div for push footer to dropdown */
+.wrap{
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+
+}
+
+
+/* start header */
+/* start navbar */
+
+.navbar{
+    background-color:#E9E3D7 ;
+    margin: 0;
+    padding: 0;
+    color: #364C63;
+    font-size: 18px;
+    width: 100%;
+}
+
+
+.navbar .navbar-nav .dropdown{
+    margin: auto;
+    margin-right: 45px;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu{
+    width: 250px;
+    text-align: right;
+    padding: 0;
+    background-color: #e9e3d7a4;
+    margin-top: 14px;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-item:hover{
+    background-color: #364C63;
+    color: white;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu img{
+    margin-left: 10px;
+      
+}
+
+.navbar .navbar-nav .nav-item-left{
+    margin-left: 35px;
+}
+
+.navbar .navbar-nav #add-post a{
+    border: 2px solid #364C63;
+    border-radius: 10px;
+    width: 180px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+.navbar .navbar-nav #add-post img{
+    margin-right: 39px;
+}
+
+
+
+/* end navbar */
+/* end header */
+
+
+       /* start box-information */
+.box-information{
+    margin-top: 5%;
+    background-image: url(/Dallal/static/icon/06e8760a4f0b56dc846a6468c873697d0be7626d-280816105320.jpg);
+    height: 1150px;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: relative;
+    
+}
+.box-information .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: rgb(251 249 248 / 34%);
+}
+
+.box-information .form-box {
+    background-color:#E9E3D7;
+    margin-top: 200px;
+   
+    border: 1px solid #364C63;
+     width: 90%;
+     margin-left:5%;
+     margin-right: 5%;
+     height: 900px;
+     border-radius: 15px;
+     padding: 50px;
+     position: relative;
+ }
+
+ 
+.box-information .form-box h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.box-information .form-box .form-label{
+    font-size: 100%;
+    font-weight: 400;
+
+}
+
+.box-information .form-box .form-control{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: auto;
+
+}
+
+.box-information .form-box .form-select{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-image: url(/Dallal/static/icon/dropdown.svg);
+    background-position: left .75rem center;
+
+}
+
+#inputZip{
+    width: 100%;
+    height: 300px;
+   
+}
+#gridCheck{
+    margin-left: 5.5em;
+}
+.box-information .form-box .form-check .form-check-label{
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+
+.box-information .form-box .btn{
+    border-radius: 10px;
+    margin-right: 35%;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom:  1%;
+    height: 41px;
+    width: 35%;
+    padding: 3px;
+    
+}
+
+
+
+.box-information .form-box .btn-primary{
+    background-color: #364C63;
+    border-color: #364C63;
+    font-size: 23px;
+}
+       /* end   box-information */
+
+
+       /* Start Footer*/
+.footer {
+    width: 100%;
+    background-color:#E9E3D7;
+    color: #fff;
+    position: relative;
+    
+}
+   
+
+   
+.footer .row .fab{
+   color: #F3B340;   
+}
+   
+.copyright {
+   background-color: #364C63;
+
+}
+.copyright small{
+    color: #fff;
+    float: left;
+}
+       /* End Footer */
+
+
+
+
+
+
+
+/* start my framework */
+
+
+
+/* end my framework */

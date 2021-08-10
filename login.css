@@ -1,0 +1,66 @@
+/*    
+colors: 
+    1. desrve => #F3B340 
+    2. blue => #364C63
+    3. near to white => #E9E3D7
+there is proplems with responsive and footer
+*/
+
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+
+body{
+  background-color: #E9E3D7;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+/* start .login-box */
+.login-box{
+    background-color:#FFFFFF;
+    margin-top:10%;
+    margin-bottom: 10%;
+   
+ 
+     width: 700px;
+     margin-left:25%;
+     margin-right: 25%;
+     height: 700px;
+     border-radius: 15px;
+     position: relative;
+    
+}
+
+
+.small-box{
+    background-color:#FFFFFF;
+    margin-top:12%;
+    margin-bottom: 10%;
+   
+ 
+     width: 700px;
+     margin-left:25%;
+     height: 200px;
+  position: absolute;
+  top: -9%;
+    
+}
+
+.login-box .small-box .img-small-box{
+    
+
+}
+
+
+/* end  login-box */

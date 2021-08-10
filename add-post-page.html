@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.rtl.min.css" integrity="sha384-4dNpRvNX0c/TdYEbYup8qbjvjaMrgUPh+g4I03CnNtANuv+VAvPL6LqdwzZKV38G" crossorigin="anonymous">
+    <link rel="stylesheet" href="/add-post-page.css">
+    <title>add-post-page</title>
+  </head>
+  <body>
+      <!--start navbar-->
+     <nav class="navbar navbar-expand-lg navbar-light   shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="/Dallal/static/icon/logo.svg" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+
+                <li class="nav-item user-icon">
+                    <a  class="nav-link" aria-current="page" href="#"><img src="/Dallal/static/icon/user.svg" alt="user-icon"></a>
+                  </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span>التصنيفات</span>
+                        <img src="/Dallal/static/icon/dropdown.svg" alt="dropdown-icon">
+                    </a>
+                    <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#"><img src="/Dallal/static/icon/directions_car-24px.svg" alt="car-icon">سيارات</a></li>
+                            
+                        <li><a  class="dropdown-item" href="#"><img src="/Dallal/static/icon/weekend-24px.svg" alt="goods-icon">اثاث منزل</a></li>
+                        
+                        <li><a class="dropdown-item" href="#"><img src="/Dallal/static/icon/apartment-24p.svg" alt="apartment-icon">عقارات</a></li>
+                        
+                        <li><a class="dropdown-item" href="#"><img src="/Dallal/static/icon/smartphone-24px.svg" alt="phone-icon">هواتف</a></li>
+                        
+                        <li><a class="dropdown-item" href="#"><img src="/Dallal/static/icon/kitchen-24px.svg" alt="electronic-icon"> الكترونيات</a></li>
+                        
+                        <li><a class="dropdown-item" href="#"><img src="/Dallal/static/icon/two_wheeler-24px.svg" alt="motorCycle-icon">دراجات نارية</a></li>
+            
+                    </ul>
+                </li>
+
+                <li class="nav-item notvigation-icon">
+                    <a  class="nav-link" aria-current="page" href="#"><img src="/Dallal/static/icon/notvigation.svg" alt="notvigation-icon"></a>
+                </li>
+  
+                <li class="nav-item nav-item-left" id="add-post">
+                    <a  class="nav-link" aria-current="page" href="#"><span>اضف اعلانك</span><img src="/Dallal/static/icon/add.svg" alt="add-post-icon"></a>
+                </li>
+    
+                  <li class="nav-item nav-item-left">
+                    <a class="nav-link" href="#"><span>ابحث</span><img src="/Dallal/static/icon/search-24px.svg" alt="search-icon"></a>
+                </li>
+            </ul>
+          
+
+          </div>
+        </div>
+      </nav>
+     <!--end navbar-->
+
+     <!--start add-post-->
+      <section class="add-post">
+          <div class="container">
+              <h4 class="add-post-tittle">اضف اعلانك</h4>
+              <div class="box-add-post">
+                <h4>اختر فئة</h4>
+                <ul class="list-group">
+
+                    <li class="list-group-item base-list-group-item dropend"><a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img  src="/Dallal/static/icon/directions_car-24px.svg"  alt="car-icon"><span class="name-base-list">سيارات</span></a>
+                        <ul id="dropdownMenu" class="dropdown-menu"  aria-labelledby="navbarDropdown">
+                            <li class="list-group-item sub-list-group-item"><a class="nav-link" href="#"><span class="name-sub-list">سيارات مستعملة</span></a></li>
+                                
+                            <li class="list-group-item sub-list-group-item"><a  class="nav-link" href="#"><span class="name-sub-list">مستلزمات</span></a></li>
+                            
+                            <li class="list-group-item sub-list-group-item"><a class="nav-link"href="#"><span class="name-sub-list">قطع غيار</span></a></li>
+                            
+                            <li class="list-group-item sub-list-group-item"><a class="nav-link"href="#"><span class="name-sub-list">عجلات واطارات</span></a></li>
+                            
+                            <li class="list-group-item sub-list-group-item"><a class="nav-link" href="#"><span class="name-sub-list">الشاحنات والمركبات</span></a></li>
+                
+                        </ul>
+                    </li>
+
+                    <li class="list-group-item base-list-group-item"><a class="nav-link" href="#"><img src="/Dallal/static/icon/weekend-24px.svg" alt="goods-icon"><span class="name-base-list">اثاث منزل</span></a></li>
+                    <li class="list-group-item base-list-group-item"><a class="nav-link" href="#"><img src="/Dallal/static/icon/apartment-24p.svg" alt="apartment-icon"><span class="name-base-list">عقارات</span></a></li>
+                    <li class="list-group-item base-list-group-item"><a class="nav-link" href="#"><img src="/Dallal/static/icon/smartphone-24px.svg" alt="phone-icon"><span class="name-base-list">هواتف</span></a></li>
+                    <li class="list-group-item base-list-group-item"><a class="nav-link" href="#"><img src="/Dallal/static/icon/kitchen-24px.svg" alt="electronic-icon"><span class="name-base-list">الكترونيات</span></a></li>
+                    <li class="list-group-item base-list-group-item"><a class="nav-link" href="#"><img src="/Dallal/static/icon/two_wheeler-24px.svg" alt="motorCycle-icon"><span class="name-base-list">دراجات نارية</span></a></li>
+                </ul>
+              </div>          
+      </section>
+     <!--end add-post-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>

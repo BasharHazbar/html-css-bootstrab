@@ -1,0 +1,989 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#364C63 ;
+}
+
+body{
+    height: 2000px;
+}
+
+
+/* start navbar */ 
+.navbar{
+    background-color:#E9E3D7 ;
+    margin: 0;
+    padding: 0;
+    color: #364C63;
+    font-size: 18px;
+    width: 100%;
+}
+
+
+.navbar .navbar-nav .user-icon{
+    margin-right: 30px;
+}
+
+.navbar .navbar-nav .user-icon img{
+  width: 36px;
+  height: 36px;
+}
+
+.navbar .navbar-nav .dropdown{
+    margin-right: 25px;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu{
+    width: 250px;
+    text-align: right;
+    padding: 0;
+    background-color: #e9e3d7a4;
+    margin-top: 14px;
+}
+
+
+.navbar .navbar-nav .dropdown .dropdown-item:hover{
+    background-color: #364C63;
+    color: white;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu img{
+    margin-left: 10px;
+      
+}
+
+.navbar .navbar-nav .notvigation-icon{
+    margin-left: auto;
+    margin-right: 25px;
+    
+}
+
+.navbar .navbar-nav .notvigation-icon img{
+   width: 21px;
+   height: 25px;
+}
+
+.navbar .navbar-nav #add-post{
+    margin-left: 70px;
+}
+
+.navbar .navbar-nav #add-post a{
+    border: 2px solid #364C63;
+    border-radius: 10px;
+    width: 180px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+.navbar .navbar-nav #add-post img{
+    margin-right: 39px;
+}
+/* end navbar */ 
+
+/* start detials-ads */
+ /* start slide  */
+.detials-ads{
+    margin-top: 50px;
+    padding-right: 15px;
+}
+
+.detials-ads .slide-ads{
+    width: 70%;
+    height: 500px;
+    padding: 0;    
+}
+.detials-ads .slide-ads .carousel-inner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+
+.detials-ads .slide-ads .carousel-inner .carousel-item img{
+    border-radius: 5px;
+    height: 500px;
+}
+
+.detials-ads .slide-ads button i{
+    color: #F3B340 ;
+}
+/* end slide  */
+.detials-ads .about-all{
+    width: 27%;
+}
+/* start detail-price  */
+
+.detials-ads .detail-price{
+    margin-right: 10px;
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    border: 1px solid #364c6380;
+    border-radius: 5px;
+    position: relative;
+}
+
+.detials-ads .detail-price .part-one span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.detials-ads .detail-price .part-one .icon-share{
+    position: absolute;
+    left: 70px;
+    top: 15px;
+    z-index: 1;
+    cursor: pointer;
+}
+.detials-ads .detail-price .part-one .icon-favorite{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
+.detials-ads .detail-price .part-tow .place{
+    position: absolute;
+    bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.detials-ads .detail-price .part-tow .time{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* end detail-price  */
+
+
+/* start describe-seller   */
+
+.detials-ads .describe-seller {
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: auto;
+    padding: 15px;
+    padding-bottom: 0;
+    border: 1px solid #364c6380;
+    border-radius: 5px;
+    position: relative;
+}
+
+.detials-ads .describe-seller h4{
+    margin: 0;
+    font-weight: bold;
+}
+
+.detials-ads .name-seller{
+    position: relative;
+    margin-top: 25px;
+    height: 105px;
+}
+
+.detials-ads .name-seller h4{
+    font-size: 20px;
+}
+
+.detials-ads .describe-seller .name-seller img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+
+.detials-ads .describe-seller .name-seller span{
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.detials-ads .describe-seller .talk-to-seller {
+    text-align: center;
+}
+
+.detials-ads .describe-seller .talk-to-seller button{
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #364C63;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.detials-ads .describe-seller .talk-to-seller span{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.detials-ads .describe-seller .talk-to-seller i{
+    margin-right: 8px;
+    cursor: pointer;
+}
+/* end describe-seller   */
+/* start about_product  */
+.about-product{
+    width: 70%;
+    margin-top: 30px;
+    
+}
+.about-product > .row{
+    border: 1px solid #364c6367;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.about-product> .row > h4{
+    margin-bottom: 22px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.about-product .details-product{
+    width: 50%;
+}
+
+.about-product .details-product .part-one{
+    width: 50%;
+}
+
+.about-product .details-product .part-one h5{
+    font-size: 15px;
+}
+
+.about-product .details-product .part-tow{
+    width: 50%;
+}
+
+.about-product .details-product .part-tow h5{
+    font-size: 15px;
+}
+
+.about-product .divider{
+    width: 94%;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.about-product .describe-product h4{
+    margin-bottom: 22px;
+    font-weight: bold;
+    font-size: 22px;
+} 
+
+.about-product .describe-product h5{
+    font-size: 15px;
+}
+
+/* end about_product  */
+/* start ads-boxes  */
+.ads-boxes{
+    width: 69%;
+    height: 320px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #364c6369;
+    border-radius: 5px;
+    overflow: hidden;
+   
+}
+.ads-boxes .row{
+    margin-top: 15px;
+}
+
+.ads-boxes .adds-title{
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+.ads-boxes .box{
+    margin-top:15px;
+    width:30%;
+    height: 250px;  
+}
+
+.ads-boxes .card{
+    margin: 0;
+    border-radius: 15px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.ads-boxes .card .inner{
+    height: 155px;
+    overflow: hidden;
+    
+}
+.ads-boxes .card .inner img {
+    transition: all 1.5s ease;
+}
+.ads-boxes .card .inner:hover img{
+    transform: scale(1.5);
+
+}
+
+.ads-boxes  .card .favorite-icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    right: 5px;
+    z-index: 2;
+}
+
+.ads-boxes .card .card-body{
+    position: relative;
+}
+
+.ads-boxes .card .card-body h5{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.ads-boxes  .card .card-text{
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.ads-boxes  .card .time{
+    position: absolute;
+    left: 12px;
+    bottom: 5px;
+    z-index: 1;
+}
+ /* end ads boxes  */
+
+/* end detials-ads */
+/* start media Query */
+
+@media (min-width:992px) and (max-width:1200px){
+    .container{
+        max-width: 1200px;
+    }
+
+    .detials-ads .describe-seller{
+        padding: 10px;
+    }
+    .detials-ads .describe-seller h4{
+        margin: 0;
+        font-weight: bold;
+    }
+    
+    .detials-ads .name-seller h4{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .container{
+        max-width: 992px;
+    }
+    .detials-ads .slide-ads{
+        width: 70%;
+        height: 450px;
+        
+    }
+    .detials-ads .slide-ads .carousel-inner .carousel-item img{
+        border-radius: 5px;
+        height: 450px;
+    }
+    /* start detail-price  */
+    .detials-ads .about-all{
+        width: 30%;
+    }
+    .detials-ads .detail-price{
+        margin-right: 0px;
+        height: 140px;
+        padding: 5px;
+    }
+
+    .detials-ads .detail-price .part-one span{
+        font-size: 19px;
+    }
+
+    .detials-ads .detail-price .part-one .icon-share{
+        width: 23px;
+        height: 23px;
+        left: 50px;
+    }
+    .detials-ads .detail-price .part-one .icon-favorite{
+        width: 23px;
+        height: 23px;
+        left: 10px;  
+    }
+
+    .detials-ads .detail-price .part-tow .place{
+        font-size: 19px;
+    }
+
+    .detials-ads .detail-price .part-tow .time{
+        font-size: 19px;
+        left: 10px;
+    }
+    /* end detail-price  */
+    /* start describe-seller   */
+
+    .detials-ads .describe-seller {
+        margin-right: 0px;
+        margin-top: 15px;
+        padding: 5px;
+
+    }
+
+    .detials-ads .describe-seller > h4{
+        font-size: 19px;
+    }
+
+
+
+    .detials-ads .name-seller h4{
+        font-size: 16px;
+    }
+
+    .detials-ads .describe-seller .name-seller span{
+        margin-right: 0px;
+        font-size: 10px;
+    }
+
+
+    .detials-ads .describe-seller .talk-to-seller button{
+        font-size: 14px;
+    }
+
+    .detials-ads .describe-seller .talk-to-seller span{
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .detials-ads .describe-seller .talk-to-seller i{
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    /* end describe-seller   */
+    /* start about_product  */
+ 
+    .about-product > .row{
+        padding: 8px;
+    }
+
+    .about-product> .row > h4{
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    .about-product .details-product{
+        padding-right: 15px;
+    }
+
+    .about-product .details-product .part-one{
+        padding: 0;
+       
+    }
+
+
+    .about-product .details-product .part-tow{
+        padding: 0;
+        
+    }
+
+    .about-product .describe-product{
+        padding-right: 5px;
+    } 
+    /* end about_product  */
+
+}
+
+@media (min-width:576px) and (max-width:768px){
+    .container{
+        max-width: 768px;
+    }
+    .detials-ads {
+        margin-top: 20px;
+    }
+    .detials-ads .slide-ads{
+        width: 100%;
+        height: 420px;
+        padding: 0 5px 0 10px;      
+    }
+    .detials-ads .slide-ads .carousel-inner .carousel-item img{
+        border-radius: 5px;
+        height: 420px;
+    }
+    /* start detail-price  */
+ 
+    .detials-ads .about-all{
+        margin-top: 15px;
+        padding: 0 5px 0 10px;
+        width: 100%;
+        display: flex;
+    }
+    .detials-ads .detail-price{
+        margin-right: 0px;
+        width: 47%;
+        height: 200px;
+        padding: 15px;
+    }
+
+    .detials-ads .detail-price .part-one span{
+        font-size: 23px;
+    }
+
+    .detials-ads .detail-price .part-one .icon-share{
+        width: 27px;
+        height: 27px;
+        left: 70px;
+        top: 16px;
+    }
+    .detials-ads .detail-price .part-one .icon-favorite{
+        top: 15px;
+        width: 30px;
+        height: 30px;
+        left: 15px;  
+    }
+
+    .detials-ads .detail-price .part-tow .place{
+        font-size: 23px;
+    }
+
+    .detials-ads .detail-price .part-tow .time{
+        font-size: 23px;
+        left: 15px;
+    }
+    /* end detail-price  */
+    /* start describe-seller   */
+
+    .detials-ads .describe-seller {
+        width: 47%;
+        margin-right:6%;
+        margin-top: 0px;
+        padding: 15px 15px 0px 15px;
+
+    }
+
+
+    .detials-ads .describe-seller > h4{
+        font-size: 19px;
+    }
+
+    .detials-ads .name-seller h4{
+        font-size: 18px;
+    }
+
+    .detials-ads .name-seller{
+        margin-top: 13px;
+        height: auto;
+    }
+
+    .detials-ads .describe-seller .name-seller span{
+        margin-right: 0px;
+        font-size: 13px;
+    }
+
+    .detials-ads .describe-seller .name-seller img{
+        margin-bottom: 0px;
+    }
+
+    .detials-ads .describe-seller .talk-to-seller{
+        text-align: right;
+        width: 60%;
+    }
+    .detials-ads .describe-seller .talk-to-seller button{
+        font-size: 14px;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 15px;
+        
+    }
+
+    .detials-ads .describe-seller .talk-to-seller span{
+        text-align: center;
+        font-size: 14px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    .detials-ads .describe-seller .talk-to-seller i{
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    /* end describe-seller   */
+     /* start about_product  */
+    .about-product{
+        width: 100%;
+        padding: 15px 17px 0px 22px;
+        margin-top: 0px;
+    }
+
+    .about-product > .row{
+        padding: 8px;    
+    }
+
+    .about-product> .row > h4{
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    .about-product .details-product{
+        padding-right: 15px;
+    }
+
+    .about-product .details-product .part-one{
+        padding: 0;
+       
+    }
+
+
+    .about-product .details-product .part-tow{
+        padding: 0;
+        
+    }
+
+
+    .about-product .describe-product{
+        padding-right: 5px;
+    } 
+    /* end about_product  */
+        
+}
+
+@media (min-width:451px) and (max-width:576px)  {
+    .container{
+        max-width: 768px;
+    }
+    .detials-ads {
+        margin-top: 20px;
+    }
+    .detials-ads .slide-ads{
+        width: 100%;
+        height: 400px;
+        padding: 0 5px 0 10px;      
+    }
+    .detials-ads .slide-ads .carousel-inner .carousel-item img{
+        border-radius: 5px;
+        height: 400px;
+    }
+    /* start detail-price  */
+ 
+    .detials-ads .about-all{
+        margin-top: 15px;
+        padding: 0 5px 0 10px;
+        width: 100%;
+        display: flex;
+    }
+    .detials-ads .detail-price{
+        margin-right: 0px;
+        width: 49%;
+        height: 200px;
+        padding: 15px;
+    }
+
+    .detials-ads .detail-price .part-one span{
+        font-size: 23px;
+    }
+
+    .detials-ads .detail-price .part-one .icon-share{
+        width: 25px;
+        height: 25px;
+        left: 60px;
+        top: 16px;
+    }
+    .detials-ads .detail-price .part-one .icon-favorite{
+        top: 15px;
+        width: 25px;
+        height: 25px;
+        left: 15px;  
+    }
+
+    .detials-ads .detail-price .part-tow .place{
+        font-size: 23px;
+    }
+
+    .detials-ads .detail-price .part-tow .time{
+        font-size: 23px;
+        left: 15px;
+    }
+    /* end detail-price  */
+    /* start describe-seller   */
+
+    .detials-ads .describe-seller {
+        width: 50%;
+        margin-right:1%;
+        margin-top: 0px;
+        padding: 5px 5px 0px 5px;
+
+    }
+
+
+    .detials-ads .describe-seller > h4{
+        font-size: 19px;
+    }
+
+    .detials-ads .name-seller h4{
+        font-size: 18px;
+    }
+
+    .detials-ads .name-seller{
+        margin-top: 13px;
+        height: auto;
+    }
+
+    .detials-ads .describe-seller .name-seller span{
+        margin-right: 0px;
+        font-size: 13px;
+    }
+
+    .detials-ads .describe-seller .name-seller img{
+        margin-bottom: 0px;
+    }
+
+    .detials-ads .describe-seller .talk-to-seller{
+        text-align: right;
+        width: 60%;
+    }
+    .detials-ads .describe-seller .talk-to-seller button{
+        font-size: 14px;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 15px;
+        
+    }
+
+    .detials-ads .describe-seller .talk-to-seller span{
+        text-align: center;
+        font-size: 14px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    .detials-ads .describe-seller .talk-to-seller i{
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    /* end describe-seller   */
+    .about-product{
+        width: 100%;
+        padding: 15px 17px 0px 22px;
+        margin-top: 0px;
+    }
+
+    .about-product > .row{
+        padding: 8px;
+        
+    }
+
+    .about-product> .row > h4{
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    .about-product .details-product{
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    .about-product .details-product .part-one{
+        padding: 0;
+       
+    }
+
+
+    .about-product .details-product .part-tow{
+        padding: 0;
+        
+    }
+    .about-product .divider{
+        margin-right: 0;
+    }
+
+    .about-product .describe-product{
+        padding-right: 5px;
+    }
+
+}
+
+@media (max-width:450px) {
+    .container{
+        max-width: 768px;
+    }
+
+    .detials-ads {
+        margin-top: 20px;
+    }
+    .detials-ads .slide-ads{
+        width: 100%;
+        height: 350px;
+        padding: 0 5px 0 10px;      
+    }
+    .detials-ads .slide-ads .carousel-inner .carousel-item img{
+        border-radius: 5px;
+        height: 350px;
+    }
+    /* start detail-price  */
+ 
+    .detials-ads .about-all{
+        margin-top: 15px;
+        padding: 0 5px 0 10px;
+        width: 100%;
+    }
+    .detials-ads .detail-price{
+        margin-right: 0px;
+        width: 100%;
+        height: 200px;
+        padding: 15px;
+    }
+
+    .detials-ads .detail-price .part-one span{
+        font-size: 25px;
+    }
+
+    .detials-ads .detail-price .part-one .icon-share{
+        width: 25px;
+        height: 25px;
+        left: 60px;
+        top: 16px;
+    }
+    .detials-ads .detail-price .part-one .icon-favorite{
+        top: 15px;
+        width: 25px;
+        height: 25px;
+        left: 15px;  
+    }
+
+    .detials-ads .detail-price .part-tow .place{
+        font-size: 23px;
+    }
+
+    .detials-ads .detail-price .part-tow .time{
+        font-size: 23px;
+        left: 15px;
+    }
+    /* end detail-price  */
+    /* start describe-seller   */
+
+    .detials-ads .describe-seller {
+        width: 100%;
+        margin-right: 0;
+        padding: 15px 15px 0px 15px;
+
+    }
+
+
+    .detials-ads .describe-seller > h4{
+        font-size: 19px;
+    }
+
+    .detials-ads .name-seller h4{
+        font-size: 18px;
+    }
+
+    .detials-ads .name-seller{
+        margin-top: 13px;
+        height: auto;
+    }
+
+    .detials-ads .describe-seller .name-seller span{
+        margin-right: 0px;
+        font-size: 13px;
+    }
+
+    .detials-ads .describe-seller .name-seller img{
+        margin-bottom: 0px;
+    }
+
+    .detials-ads .describe-seller .talk-to-seller{
+        text-align: right;
+        width: 60%;
+    }
+    .detials-ads .describe-seller .talk-to-seller button{
+        font-size: 14px;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 15px;
+        
+    }
+
+    .detials-ads .describe-seller .talk-to-seller span{
+        text-align: center;
+        font-size: 14px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    .detials-ads .describe-seller .talk-to-seller i{
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    /* end describe-seller   */
+    /* start about_product  */
+    .about-product{
+        width: 100%;
+        padding: 15px 17px 0px 22px;
+        margin-top: 0px;
+    }
+
+    .about-product > .row{
+        padding: 8px;
+        
+    }
+
+    .about-product> .row > h4{
+        font-size: 18px;
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    .about-product .details-product{
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    .about-product .details-product .part-one{
+        padding: 0;
+       
+    }
+
+    .about-product .divider{
+        margin-right: 0;
+    }
+
+    .about-product .details-product .part-tow{
+        padding: 0;
+        
+    }
+
+    .about-product .describe-product{
+        padding-right: 5px;
+    }
+    .about-product .describe-product h4{
+        font-size: 18px;
+        margin-bottom: 15px;
+    } 
+    /* end about_product  */
+}
